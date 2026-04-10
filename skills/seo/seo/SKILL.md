@@ -468,13 +468,13 @@ Data: [YYYY-MM-DD]
 | **Medium** | Okazja optymalizacji | 1 miesiąc |
 | **Low** | Nice to have | Backlog |
 
-## Integracja z projektem Specjalista SEO
+## Integracja z istniejącym projektem SEO
 
-Jeśli użytkownik pracuje w projekcie "Specjalista SEO" (`~/projekty/Specjalista SEO/`):
-- Wykorzystaj istniejące Edge Functions (`supabase/functions/`) do audytu on-page
-- Dane zapisuj do Supabase (tabele `seo_audits`, `seo_audit_pages`)
-- Raport generuj przez `ai-report` Edge Function
-- Wykorzystaj DataForSEO API (klucze w `.env.local`)
+Jeśli masz już projekt SEO z Edge Functions i Supabase:
+- Wykorzystaj istniejące endpointy do audytu on-page
+- Dane zapisuj do swojej bazy (tabele audytowe)
+- Raport generuj przez dedykowaną Edge Function
+- Klucze API do zewnętrznych serwisów SEO przechowuj w `.env.local`
 
 W innych projektach: działaj samodzielnie z Firecrawl/WebFetch.
 
