@@ -55,16 +55,44 @@ Zapisz w `docs/sales/`:
 | Lokalizacja | [PL / DACH / EU] | [global] | — |
 
 ## Persony kupujące
-### Persona 1: [Tytuł] — Decision Maker
-- **Ból:** [co go budzi w nocy]
-- **Metryka sukcesu:** [KPI za który odpowiada]
-- **Język:** [jak mówi o problemie — dosłowne frazy]
-- **Gdzie szuka rozwiązań:** [LinkedIn, konferencje, polecenia]
 
-### Persona 2: [Tytuł] — User / Champion
-- **Ból:** [codzienna frustracja]
-- **Metryka:** [co ułatwia mu pracę]
-- **Język:** [frazy z codziennej pracy]
+### Zasada: persony to empathy engine, nie profil demograficzny
+
+*Adaptacja z TheCraigHewitt/buyer-persona.* Najczęstszy błąd w personach SaaS to mylenie demografii z zachowaniem.
+
+**ŹLE (bezużyteczne):**
+> Marketing Maria, 35-45 lat, lubi jogę, aktywna na LinkedIn, ceni work-life balance, preferuje maile.
+
+Z tym nie napiszesz discovery question, cold email ani nie obsłużysz obiekcji.
+
+**DOBRZE (użyteczne):**
+> Head of Demand Gen w polskim SaaS (10-50 osób). Odpowiada za liczbę leadów do sales, obwiniana kiedy pipeline kuleje. 60% czasu broni budżetu przed CEO. Testowała 2 narzędzia attribution — żadne nie dało odpowiedzi którym CFO by uwierzył. Mówi: *"Wiem że Meta działa, ale nie potrafię tego udowodnić w sposób który księgowy akceptuje."* Blokuje decyzje wymagające IT (ostatnie wdrożenie trwało 4 miesiące). Wygrywa kiedy może wejść na QBR ze slajdem pokazującym ROI per kanał.*
+
+Dobra persona mówi Ci **co powiedzieć na rozmowie, jaki ból próbować, jaka obiekcja nadejdzie i co oznacza "wygrana" dla tej osoby**.
+
+### Zasada: zacznij od 2 person, nie od 4
+
+**Twój champion + najczęstszy blocker.** Dwie głębokie, zwalidowane persony > sześć dekoracyjnych. Dopiero gdy masz te dwie ostre (walidowane przeciw realnym dealom), dodaj trzecią (zwykle economic buyer jeśli różny od championa). Czwartą dopiero gdy masz sygnał że ta osoba naprawdę blokuje deale.
+
+### Zasada: język buyera jest **dosłowny**
+
+Kiedy persona mówi *"potrzebujemy lepszej widoczności w pipeline'ie"* — NIE tłumacz tego na *"dashboard analityczny"*. Użyj ich **dokładnych słów** w copy, mailach, na rozmowach. Buyerzy reagują na język który brzmi jak ich wewnętrzne rozmowy, nie jak vendor marketingowy.
+
+### Template personas (wypełnij dla każdej)
+
+### Persona 1: [Tytuł] — Champion (prowadzi deal wewnętrznie)
+- **Typowy dzień:** [co konsumuje jej czas, jakie fire drille]
+- **Top 3 bóle:** [konkretnie, nie ogólniki]
+- **Osobista wygrana:** [awans / mniej stresu / widoczność przed zarządem]
+- **Dokładny język bólu:** *"[dosłowna fraza którą usłyszałeś od klientów]"*
+- **Ryzyko polityczne:** [co traci jeśli poleci nas i coś pójdzie nie tak]
+- **Gdzie szuka:** [LinkedIn / konferencje / polecenia / grupy FB]
+
+### Persona 2: [Tytuł] — Blocker (najczęstsza przyczyna stalla)
+- **Dlaczego blokuje:** [budżet / status quo / IT / compliance]
+- **Jego obiekcja dosłownie:** *"[fraza którą słyszysz najczęściej]"*
+- **Co by przekonało:** [co musisz pokazać żeby się wycofał — case study, pilot, integracja]
+- **Kąt obejścia:** [czy możesz zrobić deal bez jego podpisu, czy trzeba go przekonać]
 
 ## Trigger events (sygnały zakupowe)
 1. [Zmiana w firmie — nowy CTO, funding, merger]
