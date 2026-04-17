@@ -1,0 +1,67 @@
+{
+  "name": "polish-agent-skills",
+  "owner": {
+    "name": "Dariusz Ciesielski",
+    "email": "dariusz.ciesielski.71@gmail.com"
+  },
+  "metadata": {
+    "description": "Skille Agent Skills dla polskich marketerów, sprzedawców, specjalistów SEO i content creators. 22 skille w 4 kategoriach, PL-first z bogatymi wzorcami wyzwalaczy i kolokacji po polsku.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "polish-seo-skills",
+      "description": "Kompleksowe audyty SEO, linkowanie wewnętrzne i pozycjonowanie programatyczne — dla polskiego rynku z uwzględnieniem lokalnych czynników rankingowych.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/seo/seo",
+        "./skills/seo/internal-linker",
+        "./skills/seo/programmatic-seo"
+      ]
+    },
+    {
+      "name": "polish-content-skills",
+      "description": "Tworzenie i repurpose contentu, strategia contentowa oraz skrypty YouTube dla polskich twórców.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/content/content",
+        "./skills/content/content-strategy",
+        "./skills/content/content-repurpose",
+        "./skills/content/youtube-scripts"
+      ]
+    },
+    {
+      "name": "polish-marketing-skills",
+      "description": "Copywriting marketingowy, sekwencje mailowe, social media i marketing psychology — skille marketera operującego w Polsce.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/marketing/copywriting",
+        "./skills/marketing/email-sequence",
+        "./skills/marketing/marketing-ideas",
+        "./skills/marketing/marketing-psychology",
+        "./skills/marketing/social-content"
+      ]
+    },
+    {
+      "name": "polish-sales-skills",
+      "description": "Kompletny toolkit sprzedażowy B2B: discovery, cold email, demo, propozycje cenowe, LinkedIn outreach, pipeline review i debrief rozmów. Skille 'craig-*' sprofilowane pod solo founderów polskich mikro-small SaaS.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/sales/discovery-call",
+        "./skills/sales/cold-email",
+        "./skills/sales/sales-context",
+        "./skills/sales/craig-demo-script-pl",
+        "./skills/sales/craig-call-debrief-pl",
+        "./skills/sales/craig-lead-research-pl",
+        "./skills/sales/craig-linkedin-outreach-pl",
+        "./skills/sales/craig-outbound-sequence-pl",
+        "./skills/sales/craig-pipeline-review-pl",
+        "./skills/sales/craig-proposal-pricing-pl"
+      ]
+    }
+  ]
+}

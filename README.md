@@ -36,6 +36,29 @@ Te skille to nie tłumaczenie angielskich szablonów. Powstały na bazie **dośw
 
 ## Szybki start — 1 komenda
 
+### Claude Code Plugin Marketplace (rekomendowane)
+
+```
+/plugin marketplace add DariuszCiesielski/polish-agent-skills
+```
+
+Następnie:
+1. `Browse and install plugins`
+2. Wybierz `polish-agent-skills`
+3. Wybierz zestaw: `polish-seo-skills`, `polish-content-skills`, `polish-marketing-skills` lub `polish-sales-skills`
+4. `Install now`
+
+Alternatywnie, zainstaluj konkretny pakiet bezpośrednio:
+
+```
+/plugin install polish-seo-skills@polish-agent-skills
+/plugin install polish-content-skills@polish-agent-skills
+/plugin install polish-marketing-skills@polish-agent-skills
+/plugin install polish-sales-skills@polish-agent-skills
+```
+
+### Instalator bash (dla innych edytorów / wszystkie skille na raz)
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/DariuszCiesielski/polish-agent-skills/main/install.sh | bash
 ```
